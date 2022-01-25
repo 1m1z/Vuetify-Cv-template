@@ -1,32 +1,72 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+<!-- content -->
+    <v-main >
+       <v-container>
+      <router-view/>
+       </v-container>
+    </v-main>
+<!-- content -->
+<!-- footer -->
+    <v-footer>
+      <Menu/>
+    </v-footer>
+<!-- footer -->
+  </v-app>
 </template>
 
+<script>
+import Menu from '@/components/Base/Menu.vue'
+
+export default {
+  name: 'App',
+  components:{
+    Menu
+  },
+
+  data: () => ({
+    
+  }),
+
+};
+
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*{
+  font-family: cursive; 
+};
+
+#AppBar{
+  position: sticky;
+  height: 4px;
+  
+};
+
+#AppBarRow{
+height: 10px;
+};
+.v-application--wrap{
+  min-height: min-content;
+};
+
+body::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
 }
 
-#nav {
-  padding: 30px;
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #FE6D73;
 }
 </style>
