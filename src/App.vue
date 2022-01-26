@@ -3,7 +3,7 @@
 <!-- content -->
     <v-main >
        <v-container>
-      <router-view/>
+        <router-view/>
        </v-container>
     </v-main>
 <!-- content -->
@@ -17,32 +17,46 @@
 
 <script>
 import Menu from '@/components/Base/Menu.vue'
-
+import {
+  setDocumentDirectionPerLocale,
+  setDocumentLang
+} from "@/i18n.js"
 export default {
   name: 'App',
   components:{
     Menu
+  },
+  mounted() {
+    this.$watch(
+      "$i18n.locale",
+      (newLocale, oldLocale) => {
+        if (newLocale === oldLocale) {
+          return
+        }
+        setDocumentLang(newLocale)
+        setDocumentDirectionPerLocale(newLocale)
+      },
+      { immediate: true}
+    )
   },
 
   data: () => ({
     
   }),
 
-};
+}
 
 </script>
 
 <style lang="scss">
-*{
-  font-family: cursive; 
+.v-application--wrap{
+  min-height: max-content;
 };
-
 #AppBar{
   position: sticky;
   height: 4px;
   
 };
-
 #AppBarRow{
 height: 10px;
 };
@@ -69,4 +83,39 @@ body::-webkit-scrollbar-thumb
 	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #FE6D73;
 }
+</style>
+
+
+<style>
+
+/* @font-face {
+  font-family: roboto;
+  src: url(/assets/Fonts/roboto.otf);
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(/assets/Fonts/roboto.otf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(/assets/Fonts/roboto.otf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(/assets/Fonts/roboto.otf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(/assets/Fonts/roboto.otf);
+} */
+html:lang("fa") {
+  font-family: "shabnam";
+};
+
+html:lang("en"){
+  font-family: "Roboto light"; 
+};
+
+
+
 </style>

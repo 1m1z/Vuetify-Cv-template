@@ -16,8 +16,16 @@ function loadLocaleMessages () {
   return messages
 }
 
+export function setDocumentDirectionPerLocale(locale) {
+  document.dir = locale === "fa" ? "rtl" : "ltr"
+}
+export function setDocumentLang(lang) {
+  document.documentElement.lang = lang
+}
+
 export default new VueI18n({
   locale:'en',
   fallbackLocale:'en',
   messages: loadLocaleMessages(),
+  
 })
