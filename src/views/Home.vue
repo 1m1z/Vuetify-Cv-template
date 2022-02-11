@@ -147,7 +147,6 @@
     color="#26c6da"
     dark
     hover
-    
     href="https://mobile.twitter.com/amir011010"
   >
     <v-card-title>

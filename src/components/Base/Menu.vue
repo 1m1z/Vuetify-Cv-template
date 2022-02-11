@@ -1,6 +1,7 @@
 <template>
 <v-app>
-  <v-row id="FooterRow" class="accent">
+  <div id="footermooter">
+  <v-row id="FooterRow" class="accent ml-auto">
     
     <v-col>
       <v-btn
@@ -93,6 +94,7 @@
 
   
   </v-row>
+</div>
 </v-app>
 </template>
 
@@ -130,7 +132,6 @@
 
   <style lang="scss">
   #FooterRow{
-  left: unset;
   top:30%;
   right: 0px;
   display: flex;
@@ -148,6 +149,7 @@
 @media screen and (max-width: 512px){
   #FooterRow{
     display: flex;
+    flex-wrap: wrap;
     flex-direction:row;
     left: 0px;
     top: 0px;

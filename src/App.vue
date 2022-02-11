@@ -1,8 +1,8 @@
 <template>
   <v-app>
 <!-- content -->
-    <v-main >
-       <v-container>
+    <v-main id="main">
+       <v-container id="maincontainer">
         <router-view/>
        </v-container>
     </v-main>
@@ -49,9 +49,10 @@ export default {
 </script>
 
 <style lang="scss">
-.v-application--wrap{
-  min-height: max-content;
-};
+// .v-application--wrap{
+//   min-height: max-content;
+// };
+
 #AppBar{
   position: sticky;
   height: 4px;
@@ -83,31 +84,12 @@ body::-webkit-scrollbar-thumb
 	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #FE6D73;
 }
+
 </style>
 
 
 <style>
 
-/* @font-face {
-  font-family: roboto;
-  src: url(/assets/Fonts/roboto.otf);
-}
-@font-face {
-  font-family: Roboto-Thin;
-  src: url(/assets/Fonts/roboto.otf);
-}
-@font-face {
-  font-family: roboto;
-  src: url(/assets/Fonts/roboto.otf);
-}
-@font-face {
-  font-family: roboto;
-  src: url(/assets/Fonts/roboto.otf);
-}
-@font-face {
-  font-family: roboto;
-  src: url(/assets/Fonts/roboto.otf);
-} */
 html:lang("fa") {
   font-family: "shabnam";
 };

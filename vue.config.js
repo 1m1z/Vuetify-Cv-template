@@ -1,16 +1,20 @@
 module.exports = {
   pwa: {
     name: 'Amirali Golru',
-    icon: 
+    icon: [
       {
         "src": "@/src/assets/Logo/Face2.png",
         "sizes": "192x192",
         "type": "image/png"
       },
+      {
+        'src': '@/src/assets/Logo/Face2.png',
+        'sizes': '512x512',
+        'type': 'image/png',
+      },
+    ],
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'black',
-    // configure the workbox plugin
-    
   },
   transpileDependencies: [
     'vuetify'
