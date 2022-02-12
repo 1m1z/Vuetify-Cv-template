@@ -2,7 +2,7 @@
   <div class="about" dir="rtl" >
     <div class="text-center">
     <v-icon color="primary" size="100">mdi-gamepad-variant-outline</v-icon>
-    <h1 class="mb-13">my biografy</h1>
+    <h1 class="mb-13 primary--text">my biografy</h1>
     </div>
     <p class="text-right">همه چیز برمیگرده به سال‌ها پیش، وقتی که بچه بودم و تو خونمون دو تا کامپیوتر داشتیم. یکی قدیمی بود و یکی دیگه جدید و ویندوز ۷ داشت، یعنی آخرین ویندوز اون زمان که تازه هم اومده بود. کامپیوتر قدیمی مال من شده بود و کلی ذوق داشتم، بزرگترین هدفم این بود که ویندوز xp رو تبدیل کنم به ویندوز ۷ 😂🤦‍♂️ هی میبردیم که بهش ویندوز بزنن میگفتن ویندوز 7 رو ساپورت نمیکنه. خلاصه اونقدر شب و روزمو باهاش گذرونده بودم که تمام فایل‌های سیستمی رو هم از حفظ بودم.</p>
     <h1 class="primary--text">My first love</h1>
@@ -31,3 +31,11 @@ export default {
   
 }
 </script>
+
+<style lang="scss">
+@media screen and (max-width: 512px){
+  .about{
+    margin-top:50px;
+  }
+}
+</style>

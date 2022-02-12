@@ -1,15 +1,15 @@
 <template>
-    <v-cintainer>
+    <v-container id="blogcon">
         <div>
-            <h1>this is my blog</h1>
+            <h1 class="text-center primary--text">welcome to my writings :)</h1>
         </div>
         <div>
             <v-row>
                 <v-col>
                     <v-card
-    class="mx-auto my-12"
-    max-width="374"
-  >
+                    class="mx-auto my-12"
+                    max-width="374"
+                    >
     <v-img
       height="250"
       src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
@@ -143,7 +143,7 @@
                 </v-col>
             </v-row>
         </div>
-    </v-cintainer>
+    </v-container>
 </template>
 
 <script>
@@ -153,3 +153,12 @@ export default {
     
 }
 </script>
+
+
+<style lang="scss">
+@media screen and (max-width: 512px){
+  #blogcon{
+    margin-top:50px;
+  }
+}
+</style>

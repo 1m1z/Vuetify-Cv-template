@@ -1,7 +1,6 @@
 <template>
 <v-app>
-  <div id="footermooter">
-  <v-row id="FooterRow" class="accent ml-auto">
+  <v-row id="FooterRow" class="accent ml-auto" :style="{topwidth}">
     
     <v-col>
       <v-btn
@@ -94,7 +93,6 @@
 
   
   </v-row>
-</div>
 </v-app>
 </template>
 
@@ -124,6 +122,7 @@
         console.log('engilisi');
       }
     }
+
   },
 }
 </script>
@@ -133,7 +132,7 @@
   <style lang="scss">
   #FooterRow{
   top:30%;
-  right: 0px;
+  right: 0%;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -158,6 +157,7 @@
     position: fixed;
     margin: auto;
     align-items: center;
+    
   }
 }
   </style>

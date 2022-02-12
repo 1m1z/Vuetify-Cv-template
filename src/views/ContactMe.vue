@@ -1,9 +1,10 @@
 <template>
     <v-app>
-        <div class="form rounded-xl" id="form">
-            <v-form>
+        <div class="form pa-xl-16 pa-lg-16 pa-md-16 pa-sm-1 pa-xs-1 pa-3 rounded-xl contactform" id="form">
+            <p>if i can do somthing for you, please dont be shy ;)</p>
+            <v-form class="px-2">
                 <v-row>
-                    <v-col>
+                    <v-col cols="12" xl="12" lg="12" md="12" sm="12" xs="12">
                         <v-text-field
                             label="name and family"
                             placeholder="Placeholder"
@@ -12,14 +13,14 @@
                     </v-col>
                 </v-row>
                 <v-row>
-                    <v-col>
+                    <v-col cols="12" xl="6" lg="6" md="6" sm="6" xs="12">
                         <v-text-field
                             label="email"
                             placeholder="Placeholder"
                             outlined
                         ></v-text-field>
                     </v-col>
-                    <v-col>
+                    <v-col cols="12" xl="6" lg="6" md="6" sm="6" xs="12">
                         <v-text-field
                             label="phone number"
                             placeholder="Placeholder"
@@ -115,9 +116,9 @@ a, a:hover, a:focus, a:active {
       color: inherit;
  };
 
-.form{
-    padding: 200px 200px 200px 200px;
-    background-color: #FE6D73;
+ @media screen and (max-width: 512px){
+  .form{
+    margin-top:70px;
+  }
 }
-
 </style>

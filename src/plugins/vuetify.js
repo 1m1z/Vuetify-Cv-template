@@ -15,6 +15,7 @@ export default new Vuetify({
         info: "#FFCB77",
         danger:"#FE6D73",
         accent: "#FFCB77", // #3F51B5
+        contactform :"#fef9ef"
     },
     dark: {
         primary: "#00b4d8", // #E53935
@@ -22,6 +23,7 @@ export default new Vuetify({
         info: "#FF9F1C",
         danger:"#E71D36",
         accent: "#FFCB77", // #3F51B5
+        contactform :"#011627"
     },
     },
 },
