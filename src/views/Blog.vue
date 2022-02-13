@@ -149,7 +149,9 @@
 <script>
 export default {
     name: 'Blog',
-
+    metaInfo: {
+        title: 'blog | بلاگ'
+    },
     
 }
 </script>

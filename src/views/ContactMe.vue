@@ -63,22 +63,22 @@
                 <h3 class="py-2">if you want you can text me in other social media :)</h3>
                 <v-row>
                     <v-col>
-                        <a href="#"><v-icon size="100">mdi-instagram</v-icon></a>
+                        <a href="https://www.instagram.com/amiraliglr/"><v-icon size="100">mdi-instagram</v-icon></a>
                         <h3>instagram</h3>
                         <p>@amiraliglr</p>
                     </v-col>
                     <v-col>
-                        <a href="#"><v-icon size="100">mdi-linkedin</v-icon></a>
+                        <a href="https://www.linkedin.com/in/amirali-golru-1ba1661b4/"><v-icon size="100">mdi-linkedin</v-icon></a>
                         <h3>linkedin</h3>
                         <p>@amiraliglr</p>
                     </v-col>
                     <v-col>
-                        <a href="#"><v-icon size="100">mdi-whatsapp</v-icon></a>
+                        <a href="https://web.whatsapp.com/0919830453"><v-icon size="100">mdi-whatsapp</v-icon></a>
                         <h3>whatsapp</h3>
                         <p>@amiraliglr</p>
                     </v-col>
                     <v-col>
-                        <a href="#"><v-icon size="100">mdi-send</v-icon></a>
+                        <a href="https://t.me/amir011010"><v-icon size="100">mdi-send</v-icon></a>
                         <h3>telegram</h3>
                         <p>@amiraliglr</p>
                     </v-col>
@@ -93,6 +93,9 @@
 <script>
 export default {
     name:'ContactMe',
+    metaInfo: {
+        title: 'contact me | تماس با من'
+    },
     data() {
         return {
             alertshow:false,

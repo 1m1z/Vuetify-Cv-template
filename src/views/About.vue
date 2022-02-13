@@ -28,7 +28,9 @@
 
 export default {
   name:"About",
-  
+  metaInfo: {
+        title: 'About Us | درباه من'
+    },
 }
 </script>
 

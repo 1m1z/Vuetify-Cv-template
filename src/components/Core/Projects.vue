@@ -7,22 +7,26 @@
     max-width="344"
     >
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      src="../../assets/Pics/royalvision.png"
       height="200px"
+      alt="royalvision"
+      lazy
     ></v-img>
 
     <v-card-title>
-      Top western road trips
+      Royal vision
     </v-card-title>
 
     <v-card-subtitle>
-      1,000 miles of wonder
+      Building and optimizition wordpress site for hamrah kian technology
     </v-card-subtitle>
 
     <v-card-actions>
       <v-btn
-        color="orange lighten-2"
+        color="orange"
         text
+        href="https://royalvision.ir/"
+        target="_blank"
       >
         Explore
       </v-btn>
@@ -55,22 +59,24 @@
     max-width="344"
     >
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      src="../../assets/Pics/hekfa.png"
       height="200px"
     ></v-img>
 
     <v-card-title>
-      Top western road trips
+      HEKFA
     </v-card-title>
 
     <v-card-subtitle>
-      1,000 miles of wonder
+      Building and optimizition wordpress site for hamrah kian technology
     </v-card-subtitle>
 
     <v-card-actions>
       <v-btn
-        color="orange lighten-2"
+        color="orange"
         text
+        href="https://www.hekfa.ir/"
+        target="_blank"
       >
         Explore
       </v-btn>
@@ -103,22 +109,25 @@
     max-width="344"
     >
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      src="../../assets/Pics/amiralig.png"
       height="200px"
+      lazy
     ></v-img>
 
     <v-card-title>
-      Top western road trips
+      Personal Bootstrap Template
     </v-card-title>
 
     <v-card-subtitle>
-      1,000 miles of wonder
+      my personal bootstrap template like CV
     </v-card-subtitle>
 
     <v-card-actions>
       <v-btn
-        color="orange lighten-2"
+        color="orange"
         text
+        href="http://amiralig.gigfa.com/?i=1"
+        target="_blank"
       >
         Explore
       </v-btn>

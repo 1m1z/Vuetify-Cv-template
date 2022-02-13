@@ -18,21 +18,15 @@
         elevation="24"
         class="rounded-xl"
         >
-
-          <v-card-title primary-title>
-            {{ $t("message") }}
-          </v-card-title>
-
           <v-card-text>
-            <div> guy who love every things</div>
+            <div> {{ $t('home.part1.jobtitle')}}</div>
             <p class="text-h4 text--primary">
-              Amirali Golru
+               {{ $t('home.part1.name')}}
             </p>
-            <p>working on company</p>
+            <p> {{ $t('home.part1.looking')}}</p>
             <div class="text--primary">
-              You will begin to realise why this exercise is called the Dickens Pattern
-              (with reference to the ghost showing Scrooge some different futures)<br>
-              
+               {{ $t('home.part1.hibody')}}<br>
+               {{ $t('home.part1.shortabout')}}
             </div>
               <br>
               <v-row>
@@ -40,7 +34,7 @@
                 <div class="text-center">
                     <v-card to="/cv" hover >
                       <v-card-title><v-img  src="../assets/Logo/Favorites/26.png"></v-img></v-card-title> 
-                      <h1 class="text-center mt-5" >My Resume</h1>
+                      <h1 class="text-center mt-5 font-weight" > {{ $t('home.part1.buttons.cv')}}</h1>
                       <v-card-subtitle><v-icon>mdi-location-enter</v-icon></v-card-subtitle>
                     </v-card>
                 </div>
@@ -49,7 +43,7 @@
                 <div class="text-center" >
                     <v-card to="/about" hover>
                       <v-card-title><v-img  src="../assets/Logo/Favorites/20.png"></v-img></v-card-title> 
-                      <h1 class="text-center mt-5">Biografy</h1>
+                      <h1 class="text-center mt-5">{{ $t('home.part1.buttons.bio')}}</h1>
                       <v-card-subtitle><v-icon>mdi-location-enter</v-icon></v-card-subtitle>
                     </v-card>
                 </div>
@@ -58,7 +52,7 @@
                 <div class="text-center">
                     <v-card to="/blog" hover>
                       <v-card-title><v-img  src="../assets/Logo/Favorites/15.png"></v-img></v-card-title> 
-                      <h1 class="text-center mt-5">Blog</h1>
+                      <h1 class="text-center mt-5">{{ $t('home.part1.buttons.blog')}}</h1>
                       <v-card-subtitle><v-icon>mdi-location-enter</v-icon></v-card-subtitle>
                     </v-card>
                 </div>
@@ -67,7 +61,7 @@
                 <div class="text-center">
                     <v-card to="/contactme" hover>
                       <v-card-title><v-img  src="../assets/Logo/Favorites/23.png"></v-img></v-card-title> 
-                      <h1 class="text-center mt-5">Contact Me</h1>
+                      <h1 class="text-center mt-5">{{ $t('home.part1.buttons.contact')}}</h1>
                       <v-card-subtitle><v-icon>mdi-location-enter</v-icon></v-card-subtitle>
                     </v-card>
                 </div>
@@ -95,40 +89,45 @@
           class="mx-4 "
           icon
         >
+          <a href="https://github.com/AMiRZzZzZz" target="_blank">
           <v-icon size="24px">
-            mdi-facebook
+            mdi-github
           </v-icon>
-          
+          </a>
         </v-btn>
 
         <v-btn
           class="mx-4"
           icon
         >
-          <v-icon size="24px">
-            mdi-facebook
+        <a href="https://www.linkedin.com/in/amirali-golru-1ba1661b4/" target="_blank">
+          <v-icon size="24px" >
+            
+            mdi-linkedin
           </v-icon>
-          
+          </a>
         </v-btn>
 
         <v-btn
           class="mx-4"
           icon
         >
+        <a href="https://steamcommunity.com/id/AMIRZZZZZZ/" target="_blank">
           <v-icon size="24px">
-            mdi-facebook
+            mdi-steam
           </v-icon>
-          
+        </a>
         </v-btn>
 
         <v-btn
           class="mx-4 "
           icon
         >
+        <a href="https://www.origin.com/deu/de-de/profile/achievements" target="_blank">
           <v-icon size="24px">
-            mdi-facebook
+            mdi-origin
           </v-icon>
-          
+        </a>
         </v-btn>
       </v-card-text>
 
@@ -136,9 +135,26 @@
 
       <v-row>
         <v-col cols="12" xl="4" lg="4" md="4" sm="12" xs="12">
-          <v-card-text class="text-justify ">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          <v-card-title primary-title>
+            {{$t('home.part2.pwatitle')}}
+          </v-card-title>
+          <v-card-text class="text-justify">
+            {{$t('home.part2.pwatext')}}
           </v-card-text>
+          <v-row>
+            <v-col>
+              <a href="https://vuejs.org/" target="_blank">
+              <v-icon size="100">mdi-vuejs</v-icon>
+              <h4>vue js</h4>
+              </a>
+            </v-col>
+            <v-col>
+              <a href="https://vuetifyjs.com/en/" target="_blank">
+              <v-icon size="100">mdi-vuetify</v-icon>
+              <h4>vuetify</h4>
+              </a>
+            </v-col>
+          </v-row>
         </v-col>
 
         <v-col cols="12" xl="5" lg="5" md="5" sm="12" xs="12">
@@ -159,8 +175,8 @@
       <span class="text-h6 font-weight-light">Twitter</span>
     </v-card-title>
 
-    <v-card-text class="text-h5 font-weight-bold">
-      "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well."
+    <v-card-text class="text-h5 font-weight-bold ">
+      {{$t('home.part2.tiwter')}}
     </v-card-text>
 
     <v-card-actions>
@@ -182,10 +198,6 @@
 </v-col>
 
         <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12">
-          <!-- <div class="pt-4"> <v-icon>mdi-phone</v-icon> telephone</div>
-          <div class="pt-4"> <v-icon>mdi-account</v-icon>44 (012) 6954 783</div>
-          <div class="pt-4"> <v-icon>mdi-account</v-icon> instagram</div>
-          <div class="pt-4"> <v-icon>mdi-account</v-icon> instagram</div> -->
           <v-chip
           color="red"
           class="ma-1"
@@ -284,7 +296,12 @@
 
 <style lang="scss" >
 
-
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+      outline: none;
+      border:none; 
+};
 #HomeRow{
   background-color: #2B2B2B;
   padding-top: 20px ;

@@ -2,11 +2,12 @@
 <v-app>
     <info/>
 
-    <h1 class="text-center primary--text pt-16">My Skils</h1>
+    <h1 class="text-center danger--text pt-16">My Skils</h1>
 
     <skills/>
+ 
 
-    <h1 class="text-center primary--text pt-16">My Eduction & work</h1>
+    <h1 class="text-center primary--text pt-16">My Eduction</h1>
 
     <TimeLine/>
 
@@ -29,6 +30,9 @@ import Project from '@/components/Core/Projects.vue'
 
 export default {
     name:'MyCv',
+    metaInfo: {
+        title: 'my resume | رزومه من'
+    },
     components:{
         Info,
         Skills,

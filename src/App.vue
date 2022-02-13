@@ -23,6 +23,9 @@ import {
 } from "@/i18n.js"
 export default {
   name: 'App',
+  metaInfo: {
+      title: 'Home | خانه',
+    },
   components:{
     Menu
   },
@@ -85,7 +88,9 @@ body::-webkit-scrollbar-thumb
 	background-color: #FE6D73;
 };
 
-
+.v-application a{
+      color: inherit !important; 
+};
 
 </style>
 

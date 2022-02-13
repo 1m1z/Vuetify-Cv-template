@@ -1,3 +1,47 @@
 {
-  "message": "hello i18n !!"
+  "home":{
+    "part1":{
+      "jobtitle" : "front end web developer",
+      "name" : "Amirali Golru",
+      "looking" : "Looking for Job",
+      "hibody" : "hi body!",
+      "shortabout": "welcome to my world, you can reserch all my site and im glad to you staying and reading my biografy and work resume",
+      "buttons":{
+        "cv" : "Resume",
+        "bio" : "Biografy",
+        "blog" :"Blog",
+        "contact" :"Contact Me"
+      }
+    },
+    "part2":{
+      "pwatitle":"Amirali Golru Web Appilaction",
+      "pwatext" : "This site was created using vue and pwa technology, which means that the site can be installed as an application on your device.",
+      "tiwter":" `Alone is your best master,mentor and teacher.` "
+    }
+  },
+
+  "resume":{
+    "information" :{
+      "name1" : "First and Last name",
+      "name2" : "Amirali Golru",
+      "date1" : "date of birthe",
+      "date2" : "december 19, 2002",
+      "loc1" : "location",
+      "loc2" : "Tehran - Iran",
+      "mail1" : "email address",
+      "mail2" : "golruamirali@gmail.com",
+      "linked1" : "linkedin profile",
+      "linked2" : "@amiraliglr",
+      "phnum1" : "mobile number",
+      "phnum2" : "+98 9198394753",
+      "site1" : "personal site address",
+      "site2" : "https://amiraliglr.ir",
+      "jobt1" : "job title",
+      "jobt2" : "front end web developer",
+      "khedmat1" : "status of the task system",
+      "khedmat2" : "academic exemption",
+      "rell1" : "marital status",
+      "rell2" : "single"
+    }
+  }
 }

@@ -10,29 +10,30 @@
         <v-col >
             <div>
                 <v-card class="mt-2 rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.name1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.name2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="secondary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.date1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.date2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="info rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.loc1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.loc2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="danger rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.mail1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.mail2')}}</p></v-card-text>
                 </v-card>
-
+                <a href="https://www.linkedin.com/in/amirali-golru-1ba1661b4/" target="_blank">
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.linked1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.linked2')}}</p></v-card-text>
                 </v-card>
+                </a>
             </div>
         </v-col>
 
@@ -40,28 +41,28 @@
         <v-col >
             <div >
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.phnum1')}}r</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.phnum2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.site1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.site2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.jobt1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.jobt2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.khedmat1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.khedmat2')}}</p></v-card-text>
                 </v-card>
 
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="primary rounded-b">name and family</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">Amirali Golru</p></v-card-text>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.rell1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('resume.information.rell2')}}</p></v-card-text>
                 </v-card>
             </div>
         </v-col>
