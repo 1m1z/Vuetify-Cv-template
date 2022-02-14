@@ -1,13 +1,13 @@
 <template>
-<v-app>
+<v-app class="cv">
     <info/>
 
-    <h1 class="text-center danger--text pt-16">My Skils</h1>
+    <h1 class="text-center danger--text pt-16">{{$t('langskill.skill')}}</h1>
 
     <skills/>
  
 
-    <h1 class="text-center primary--text pt-16">My Eduction</h1>
+    <h1 class="text-center primary--text pt-16">{{$t('edu.edutitle')}}</h1>
 
     <TimeLine/>
 
@@ -49,5 +49,9 @@ data: ()=> {
 </script>
 
 <style lang="scss">
-
+@media screen and (max-width: 512px){
+  .cv{
+    margin-top:50px;
+  }
+}
 </style>

@@ -121,7 +121,7 @@ a, a:hover, a:focus, a:active {
 
  @media screen and (max-width: 512px){
   .form{
-    margin-top:70px;
+    margin-top:80px;
   }
 }
 </style>

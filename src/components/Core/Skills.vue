@@ -181,20 +181,20 @@
             
         </v-row>
 
-        <h1 class="text-center info--text pt-16 pb-12">My Language</h1>
+        <h1 class="text-center info--text pt-16 pb-12">{{$t('langskill.langtitle')}}</h1>
 
         <v-row>
             <v-col>
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="info rounded-b">persian</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">native</p></v-card-text>
+                    <v-card-subtitle class="info rounded-b">{{$t('langskill.langpersian1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('langskill.langpersian2')}}</p></v-card-text>
                 </v-card>
             </v-col>
 
             <v-col>
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="info rounded-b">english</v-card-subtitle>
-                    <v-card-text><p class="mt-4 title">50% 50%</p></v-card-text>
+                    <v-card-subtitle class="info rounded-b">{{$t('langskill.langenglish1')}}</v-card-subtitle>
+                    <v-card-text><p class="mt-4 title">{{$t('langskill.langenglish2')}}</p></v-card-text>
                 </v-card>
             </v-col>
         </v-row>

@@ -43,5 +43,56 @@
       "rell1" : "marital status",
       "rell2" : "single"
     }
+  },
+  "langskill" :{
+    "skill" : "My Skills",
+    "langtitle" : "My Languages",
+    "langpersian1":"persian",
+    "langpersian2":"native",
+    "langenglish1":"english",
+    "langenglish2":"50% 50%"
+  },
+  "edu":{
+    "edutitle":"My Eduction",
+    "schoolmajor":"computer / web design",
+    "schoolname":"shahid avini highschool",
+    "schoolabout":"3 years lerned in school",
+    "collagemajor":"Information & Techlonogy",
+    "collagename":"shamsipour collage",
+    "collageabout":"term 3 and going forward"
+  },
+  "job":{
+    "jobtitr": "Job Experience",
+    "section1":{
+      "jobtitle":"site optimization",
+      "jobdate":"from september 2017 to october 2017",
+      "jobloc":"negin law & financial institute",
+      "jobabout":"designing and programming the company's site and optimizing and producing content for it"
+    },
+    "section2":{
+      "jobtitle":"site design",
+      "jobdate":"from august 2017 to september 2017",
+      "jobloc":"PCRAN",
+      "jobabout":"programming and site design pcran and content production and site optimization"
+    },
+    "section3":{
+      "jobtitle":"Front End Dev",
+      "jobdate":"from july 2019 to september 2019",
+      "jobloc":"royal vision",
+      "jobabout":"content production and website optimization royalvision.ir"
+    },
+    "section4":{
+      "jobtitle":"Site developing",
+      "jobdate":"from april 2020 to may 2020",
+      "jobloc":"negin law & financial institute",
+      "jobabout":"site design and content production for heckfa company"
+    },
+    "section5":{
+      "jobtitle":"Freelancer",
+      "jobdate":"from september 2020 to present",
+      "jobloc":"at freelancer company",
+      "jobabout":"im accpect any project from freelancer.com and like web developing or site optimiztion and..."
+    }
+    
   }
 }

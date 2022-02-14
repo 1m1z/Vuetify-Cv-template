@@ -132,6 +132,8 @@
   <style lang="scss">
   #FooterRow{
   top:30%;
+  bottom: 30%;
+  height: 500px;
   right: 0%;
   display: flex;
   flex-direction: column;
@@ -139,6 +141,8 @@
   margin: auto;
   align-items: center;
   border-radius: 20px 0px 0px 20px;
+  z-index: 999;
+  
 };
 
 
@@ -147,16 +151,18 @@
 
 @media screen and (max-width: 512px){
   #FooterRow{
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
+    flex-wrap: nowrap;
     flex-direction:row;
+    height: 11%;
     left: 0px;
+    bottom: 89%;
     top: 0px;
     right: 0px;
     border-radius: 0px 0px 40px 40px;
     position: fixed;
     margin: auto;
-    align-items: center;
+    overflow: overlay;
     
   }
 }

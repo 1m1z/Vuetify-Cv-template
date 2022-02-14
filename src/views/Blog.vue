@@ -160,7 +160,7 @@ export default {
 <style lang="scss">
 @media screen and (max-width: 512px){
   #blogcon{
-    margin-top:50px;
+    margin-top:70px;
   }
 }
 </style>
