@@ -137,14 +137,10 @@ export default {
     methods: {
         alertshowed(){
             this.alertshow = true;
-            window.location.reload();
+            
         }
     },
-    watch:{
-        alertshow(){
-            this.$refs.form.reset();
-        }
-    }
+    
 }
 
 
