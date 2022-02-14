@@ -6,7 +6,7 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
     theme: {
-    dark :true,
+    dark :false,
     rtl:true,
     themes: {
     light: {
@@ -19,7 +19,7 @@ export default new Vuetify({
     },
     dark: {
         primary: "#00b4d8", // #E53935
-        secondary: "#90e0ef", // #FFCDD2
+        secondary: "#0077b6", // #FFCDD2#90e0ef
         info: "#FF9F1C",
         danger:"#E71D36",
         accent: "#FFCB77", // #3F51B5

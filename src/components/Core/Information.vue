@@ -41,7 +41,7 @@
         <v-col >
             <div >
                 <v-card class="mt-2  rounded-xl" hover>
-                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.phnum1')}}r</v-card-subtitle>
+                    <v-card-subtitle class="secondary rounded-b">{{$t('resume.information.phnum1')}}</v-card-subtitle>
                     <v-card-text><p class="mt-4 title">{{$t('resume.information.phnum2')}}</p></v-card-text>
                 </v-card>
 

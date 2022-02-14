@@ -50,7 +50,7 @@
     "langpersian1":"persian",
     "langpersian2":"native",
     "langenglish1":"english",
-    "langenglish2":"50% 50%"
+    "langenglish2":"around ielts 4.5"
   },
   "edu":{
     "edutitle":"My Eduction",
@@ -94,5 +94,24 @@
       "jobabout":"im accpect any project from freelancer.com and like web developing or site optimiztion and..."
     }
     
+  },
+  "projects":{
+    "projecttitr":"My Projects",
+    "projectbtn":"Explore",
+    "project1":{
+      "title":"Royal vision",
+      "subtitle":"developing, optimizting and seo for royal vision",
+      "text":"create wordpress site and developing with js and jqouery, create content for web app, create CV cart for company and seo this site and..."
+    },
+    "project2":{
+      "title":"HEKFA",
+      "subtitle":"Building and optimizition wordpress site for hamrah kian technology",
+      "text":"building site and optimiztion for them"
+    },
+    "project3":{
+      "title":"Bootstrap weblog Template",
+      "subtitle":"my personal bootstrap template like CV",
+      "text":"i craeted this for resume and published on github for other who want simple weblog code"
+    }
   }
 }

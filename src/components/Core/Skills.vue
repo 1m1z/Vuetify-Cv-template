@@ -33,7 +33,7 @@
 
                 <div class="text-center danger--text mt-14 ma-2">
                     <v-icon color="danger" x-large>mdi-ip-network</v-icon>
-                    <h2>Network+</h2>
+                    <h2>+Network</h2>
                     <v-progress-linear class="mt-4"
                         color="danger"
                         rounded
@@ -121,7 +121,7 @@
 
                 <div class="text-center danger--text mt-14 ma-2">
                     <v-icon color="danger" x-large>mdi-server-security</v-icon>
-                    <h2>securtiy+</h2>
+                    <h2>+securtiy</h2>
                     <v-progress-linear class="mt-4"
                         color="danger"
                         rounded

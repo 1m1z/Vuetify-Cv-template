@@ -11,7 +11,7 @@
 
     <TimeLine/>
 
-    <h1 class="text-center primary--text pt-16 pb-14">My Project</h1>
+    <h1 class="text-center primary--text pt-16 pb-14">{{$t('projects.projecttitr')}}</h1>
 
     <project class="pb-16"/>
 

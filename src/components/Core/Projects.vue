@@ -14,11 +14,11 @@
     ></v-img>
 
     <v-card-title>
-      Royal vision
+      {{$t('projects.project1.title')}}
     </v-card-title>
 
     <v-card-subtitle>
-      Building and optimizition wordpress site for hamrah kian technology
+      {{$t('projects.project1.subtitle')}}
     </v-card-subtitle>
 
     <v-card-actions>
@@ -28,7 +28,7 @@
         href="https://royalvision.ir/"
         target="_blank"
       >
-        Explore
+        {{$t('projects.projectbtn')}}
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -46,7 +46,7 @@
         <v-divider></v-divider>
 
             <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              {{$t('projects.project1.text')}}
             </v-card-text>
             </div>
         </v-expand-transition>
@@ -64,11 +64,11 @@
     ></v-img>
 
     <v-card-title>
-      HEKFA
+      {{$t('projects.project2.title')}}
     </v-card-title>
 
     <v-card-subtitle>
-      Building and optimizition wordpress site for hamrah kian technology
+      {{$t('projects.project2.subtitle')}}
     </v-card-subtitle>
 
     <v-card-actions>
@@ -78,7 +78,7 @@
         href="https://www.hekfa.ir/"
         target="_blank"
       >
-        Explore
+        {{$t('projects.projectbtn')}}
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -96,7 +96,7 @@
         <v-divider></v-divider>
 
             <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              {{$t('projects.project2.text')}}
             </v-card-text>
             </div>
         </v-expand-transition>
@@ -115,11 +115,11 @@
     ></v-img>
 
     <v-card-title>
-      Personal Bootstrap Template
+      {{$t('projects.project3.title')}}
     </v-card-title>
 
     <v-card-subtitle>
-      my personal bootstrap template like CV
+      {{$t('projects.project3.subtitle')}}
     </v-card-subtitle>
 
     <v-card-actions>
@@ -129,7 +129,7 @@
         href="http://amiralig.gigfa.com/?i=1"
         target="_blank"
       >
-        Explore
+        {{$t('projects.projectbtn')}}
       </v-btn>
 
       <v-spacer></v-spacer>
@@ -147,7 +147,7 @@
         <v-divider></v-divider>
 
             <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              {{$t('projects.project3.text')}}
             </v-card-text>
             </div>
         </v-expand-transition>
