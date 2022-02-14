@@ -2,13 +2,23 @@
     <v-app>
         <div class="form pa-xl-16 pa-lg-16 pa-md-16 pa-sm-1 pa-xs-1 pa-3 rounded-xl contactform" id="form">
             <p>if i can do somthing for you, please dont be shy ;)</p>
-            <v-form class="px-2">
+            <v-form class="px-2"
+                    v-model="valid"
+                    ref="form"
+                    action="https://formspree.io/f/mjvlwgyz"
+                    method="POST"
+            >
                 <v-row>
                     <v-col cols="12" xl="12" lg="12" md="12" sm="12" xs="12">
                         <v-text-field
                             label="name and family"
-                            placeholder="Placeholder"
+                            placeholder="Amir"
                             outlined
+                            name="name"
+                            v-model="firstname"
+                            :rules="nameRules"
+                            :counter="10"
+                            required
                         ></v-text-field>
                     </v-col>
                 </v-row>
@@ -16,15 +26,23 @@
                     <v-col cols="12" xl="6" lg="6" md="6" sm="6" xs="12">
                         <v-text-field
                             label="email"
-                            placeholder="Placeholder"
+                            placeholder="example@mail.com"
                             outlined
+                            type="email"
+                            name="email"
+                            required
+                            v-model="email"
+                            :rules="emailRules"
                         ></v-text-field>
                     </v-col>
                     <v-col cols="12" xl="6" lg="6" md="6" sm="6" xs="12">
                         <v-text-field
                             label="phone number"
-                            placeholder="Placeholder"
+                            placeholder="09198564851"
                             outlined
+                            type="number"
+                            required
+                            name="phonenumber"
                         ></v-text-field>
                     </v-col>
                 </v-row>
@@ -32,8 +50,10 @@
                     <v-col>
                         <v-text-field
                             label="subject"
-                            placeholder="Placeholder"
+                            placeholder="hiring front-end developer"
                             outlined
+                            required
+                            name="subject"
                         ></v-text-field>
                     </v-col>
                 </v-row>
@@ -41,12 +61,13 @@
                     <v-col>
                         <v-textarea
                             outlined
-                            name="input-7-4"
+                            name="message"
                             label="text"
+                            required
                         ></v-textarea>
                     </v-col>
                 </v-row>
-                <v-btn class="success " x-large @click="alertshowed">
+                <v-btn class="success" type="submit" x-large @click="alertshowed">
                     Send
                 </v-btn>
                 <v-alert class="mt-2" v-if="alertshow"
@@ -99,16 +120,33 @@ export default {
     data() {
         return {
             alertshow:false,
+            valid: true,
+            firstname: '',
+            lastname: '',
+            nameRules: [
+            v => !!v || 'Name is required',
+            v => v.length <= 10 || 'Name must be less than 10 characters',
+            ],
+        email: '',
+        emailRules: [
+            v => !!v || 'E-mail is required',
+            v => /.+@.+/.test(v) || 'E-mail must be valid',
+        ],
         }
     },
-
     methods: {
         alertshowed(){
             this.alertshow = true;
             window.location.reload();
         }
     },
+    watch:{
+        alertshow(){
+            this.$refs.form.reset();
+        }
+    }
 }
+
 
 </script>
 

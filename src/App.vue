@@ -17,6 +17,7 @@
 
 <script>
 import Menu from '@/components/Base/Menu.vue'
+
 import {
   setDocumentDirectionPerLocale,
   setDocumentLang
