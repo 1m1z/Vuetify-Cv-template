@@ -1,6 +1,6 @@
 <template>
   <div class="pt-6">
-    <v-btn @onClick="installer()" :style="{'display':installBtn}">
+    <v-btn @onClick="installer()">
     Add to home screen
     </v-btn>
     <v-row class="rounded-xl" id="HomeRow">
