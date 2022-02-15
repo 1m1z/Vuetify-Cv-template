@@ -1,11 +1,14 @@
 module.exports = {
-  // pwa: {
+  pwa: {
+    
   //   name: 'Amirali Golru',
   //   themeColor: '#4DBA87',
   //   msTileColor: '#000000',
   //   appleMobileWebAppCapable: 'yes',
   //   appleMobileWebAppStatusBarStyle: 'black',
-    
+  workboxOptions: {
+    skipWaiting: true
+},
   //   icon: [
   //     {
   //       "src": "/src/assets/Logo/pwa/code1",
@@ -26,7 +29,7 @@ module.exports = {
       
   //   ],
     
-  // },
+  },
 
   pluginOptions: {
     i18n: {
