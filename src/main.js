@@ -6,7 +6,7 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import i18n from './i18n'
 import VueMeta from 'vue-meta'
-
+import VuePwaInstallPlugin from "vue-pwa-install";
 Vue.config.productionTip = false
 
 new Vue({
@@ -15,5 +15,6 @@ new Vue({
   vuetify,
   i18n,
   VueMeta,
+  VuePwaInstallPlugin,
   render: h => h(App)
 }).$mount('#app')
