@@ -1,11 +1,27 @@
 <template>
-    <div>
-        <h1>
-            item 1
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et consectetur perferendis aperiam ducimus quibusdam perspiciatis a dolor. Explicabo amet rem cupiditate deserunt deleniti, delectus pariatur corrupti a cum nesciunt. Ut doloremque odit hic eaque perspiciatis earum nemo eum sequi, dicta impedit, libero quod, quis recusandae corporis quo. Possimus itaque maxime ipsa ut! Sequi nam labore amet? Saepe, accusamus distinctio maiores eaque nam quis nihil ex veniam placeat dolorum debitis sunt optio illum repellat tenetur inventore dignissimos! Officia nam quod facilis impedit eveniet repudiandae dicta magnam, cumque sunt distinctio aliquid earum ducimus error nemo corporis qui libero voluptate. Ipsam, facilis.
-        </p>
+    <div id="postdiv">
+        <v-container id="post1">
+            <h1>{{$t('blog.posts.post1.h1')}}</h1>
+            <v-img  src="../../assets/Articles/vue.jpeg"></v-img>
+            <p>{{$t('blog.posts.post1.p1')}}</p>
+            <h3>{{$t('blog.posts.post1.h2')}}</h3>
+            <p>{{$t('blog.posts.post1.p2')}}</p>
+            <h3>{{$t('blog.posts.post1.h3')}}</h3>
+            <ul>
+                <li>{{$t('blog.posts.post1.li1')}}</li>
+                <li>{{$t('blog.posts.post1.li2')}}</li>
+                <li>{{$t('blog.posts.post1.li3')}}</li>
+                <li>{{$t('blog.posts.post1.li4')}}</li>
+                <li>{{$t('blog.posts.post1.li5')}}</li>
+                <li>{{$t('blog.posts.post1.li6')}}</li>
+                <li>{{$t('blog.posts.post1.li7')}}</li>
+                <li>{{$t('blog.posts.post1.li8')}}</li>
+                <li>{{$t('blog.posts.post1.li9')}}</li>
+                <h3>{{$t('blog.posts.post1.h4')}}</h3>
+                <p>{{$t('blog.posts.post1.p3')}}</p>
+                <p>{{$t('blog.posts.post1.p4')}}</p>
+            </ul>
+        </v-container>
         <router-view></router-view>
     </div>
 </template>
@@ -15,3 +31,17 @@ export default {
     name:'Post1',
 }
 </script>
+<style lang="scss" scoped>
+* {
+    font-size: 30px;
+};
+
+@media screen and (max-width: 512px){
+  #post1{
+    margin-top:80px;
+};
+h1, p,li{
+    font-size: 20px;
+}
+}
+</style>

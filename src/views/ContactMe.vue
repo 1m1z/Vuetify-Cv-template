@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <div class="form pa-xl-16 pa-lg-16 pa-md-16 pa-sm-1 pa-xs-1 pa-3 rounded-xl contactform" id="form">
-            <p>if i can do somthing for you, please dont be shy ;)</p>
+            <p>{{$t('contactme.title1')}}</p>
             <v-form class="px-2"
                     v-model="valid"
                     ref="form"
@@ -81,7 +81,7 @@
             
             <div class="text-center pt-16 ">
                 <hr>
-                <h3 class="py-2">if you want you can text me in other social media :)</h3>
+                <h3 class="py-2"><p>{{$t('contactme.title2')}}</p></h3>
                 <v-row>
                     <v-col>
                         <a href="https://www.instagram.com/amiraliglr/"><v-icon size="100">mdi-instagram</v-icon></a>

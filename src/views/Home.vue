@@ -1,8 +1,5 @@
 <template>
   <div class="pt-6">
-    <v-btn @onClick="installer()">
-    Add to home screen
-    </v-btn>
     <v-row class="rounded-xl" id="HomeRow">
       <v-col id="ImgCol" cols="12" xl="4" lg="4" md="4" sm="12" xs="12">
           <v-img
@@ -286,31 +283,8 @@
     name: 'Home',
      data () {
       return {
-        
-        installBtn:"none",
-        installer:undefined
+
       };
-    },
-    
-    created() {
-      let installPrompt;
-      window.addEventListener("beforeinstallprompt",e=>{
-        e.preventDefault();
-        installPrompt = e;
-        this.installBtn = "block";
-      });
-      this.installer=()=>{
-        this.installBtn="none";
-        installPrompt.prompt();
-        installPrompt.userChoice.then(result =>  {
-          if (result.outcome === "accepted") {
-            console.log("user accepted");
-          }else{
-            console.log("user denied");
-          }
-          installPrompt = null;
-        })
-      }
     },
     components: {
 

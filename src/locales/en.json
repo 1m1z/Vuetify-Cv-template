@@ -5,7 +5,7 @@
       "name" : "Amirali Golru",
       "looking" : "Looking for Job",
       "hibody" : "hi body!",
-      "shortabout": "welcome to my world, you can reserch all my site and im glad to you staying and reading my biografy and work resume",
+      "shortabout": "welcome to my world😊, you can reserch all my site and im glad to you staying and reading my biografy and work resume",
       "buttons":{
         "cv" : "Resume",
         "bio" : "Biografy",
@@ -113,5 +113,41 @@
       "subtitle":"my personal bootstrap template like CV",
       "text":"i craeted this for resume and published on github for other who want simple weblog code"
     }
+  },
+  "contactme":{
+    "title1":"if i can do somthing for you, please dont be shy ;)",
+    "title2":"if you want you can text me in other social media 💖"
+  },
+  "blog":{
+    "blogshow":{
+    "blogtitr":"welcome to my writings :)",
+    "blogbtn":"GO TO ARTICLE",
+    "post1":{
+      "title":"why vue js and vuetify?",
+      "type":"Article - 2min",
+      "subject":"In this article, we will examine why we should choose VUE JS and VEUTIFY"
+    }
+  },
+  "posts":{
+    "post1":{
+      "h1":"why would we use the vuejs?",
+      "p1":"today (vuejs) is one of the best and most popular frameworks of the javascript programming language, which is mostly used for website design and has found a good job market in iran. we're going to continue to look at the reasons why we should use vue.",
+      "h2":"just web design ???",
+      "p2":"many people use vuejs to design web applications, but vuejs makes it possible for you to develop your application under android and avs mobiles.",
+      "h3":"vuejs capabilities:",
+      "li1":"vuejs has less volume than rect and engiolar frameworks, which of course affects the overall volume and speed of your application.",
+      "li2":"it's very good for freelancers because according to the relatively easy syntax, it speeds up your coding and you don't need your code.",
+      "li3":"sites that are coded with vue code have better seo than other sites and this is a very, very good feature .",
+      "li4":"vue doesn't need that much analysis because of its simple syntax, and that's why it's possible to telecommute in iran.",
+      "li5":"if you dominate vue , you can also work with alpine gs . because they have the same syntax .",
+      "li6":"you can run spe sites with them. (i'll tell them ( e jax on his head)",
+      "li7":"you can responsive your pages using vuetify.",
+      "li8":"you can use vue native web application to define your application for mobile as well",
+      "li9":"ability to control components and reduce code.",
+      "h4":"labor market:",
+      "p3":"as i said above, vuejs has a good job market in iran, especially for freelancers or those who want to work around, and if you look at job sites, you will find yourself.",
+      "p4":"in general, if you are front end and you want to design a web application with javascript, vuejs can help you a lot and as always i say these are all tools and you decide when and where to use them."
+    }
   }
+}
 }
