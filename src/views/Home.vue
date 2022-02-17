@@ -76,6 +76,7 @@
 <v-footer
     color="#64C69F"
     class="rounded-xl"
+    width="100%"
   >
     <v-card
       flat
@@ -197,70 +198,38 @@
 </v-col>
 
         <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12">
+          <h5>chips</h5>
           <v-chip
-          color="red"
+          color="green"
           class="ma-1"
           link
           :to="{name : 'Post1'}"
           >
-          technologys
+          VUE
           </v-chip>
           <v-chip
-          color="red"
+          color="blue"
           class="ma-1"
           link
           :to="{name : 'Post1'}"
           >
-          technologys
+          VUETIFY
           </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
-          <v-chip
-          color="red"
-          class="ma-1"
-          link
-          :to="{name : 'Post1'}"
-          >
-          technologys
-          </v-chip>
+          <h5>contact me</h5>
+          <v-row id="inforow">
+            <span>
+              <v-icon color=""> mdi-phone-plus</v-icon>
+              asd
+            </span>
+            <span>
+              <v-icon color=""> mdi-email</v-icon>
+              golruamirali@gmail.com
+            </span>
+            <span>
+              <v-icon color="">mdi-map-marker-check</v-icon>
+              Tehran - darabad
+            </span>
+          </v-row>
         </v-col>
       </v-row>
 
@@ -306,6 +275,12 @@ a, a:hover, a:focus, a:active {
   padding-top: 20px ;
   
 };
+#inforow{
+  display: flex;
+  flex-direction: column;
+  margin: 4px 4px 4px 4px;
+  justify-content: flex-start;
+}
 
 
 

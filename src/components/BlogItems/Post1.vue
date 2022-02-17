@@ -1,12 +1,12 @@
 <template>
     <div id="postdiv">
         <v-container id="post1">
-            <h1>{{$t('blog.posts.post1.h1')}}</h1>
+            <h1 class="secondary--text">{{$t('blog.posts.post1.h1')}}</h1>
             <v-img  src="../../assets/Articles/vue.jpeg"></v-img>
             <p>{{$t('blog.posts.post1.p1')}}</p>
-            <h3>{{$t('blog.posts.post1.h2')}}</h3>
+            <h3 class="secondary--text">{{$t('blog.posts.post1.h2')}}</h3>
             <p>{{$t('blog.posts.post1.p2')}}</p>
-            <h3>{{$t('blog.posts.post1.h3')}}</h3>
+            <h4 class="secondary--text">{{$t('blog.posts.post1.h3')}}</h4>
             <ul>
                 <li>{{$t('blog.posts.post1.li1')}}</li>
                 <li>{{$t('blog.posts.post1.li2')}}</li>
@@ -17,7 +17,7 @@
                 <li>{{$t('blog.posts.post1.li7')}}</li>
                 <li>{{$t('blog.posts.post1.li8')}}</li>
                 <li>{{$t('blog.posts.post1.li9')}}</li>
-                <h3>{{$t('blog.posts.post1.h4')}}</h3>
+                <h5 class="secondary--text">{{$t('blog.posts.post1.h4')}}</h5>
                 <p>{{$t('blog.posts.post1.p3')}}</p>
                 <p>{{$t('blog.posts.post1.p4')}}</p>
             </ul>
