@@ -17,6 +17,10 @@
       "pwatitle":"Amirali Golru Web Appilaction",
       "pwatext" : "This site was created using vue and pwa technology, which means that the site can be installed as an application on your device.",
       "tiwter":" `Alone is your best master,mentor and teacher.` "
+    },
+    "part3":{
+      "contacttitle" :"contact me",
+      "chips" :"chips"
     }
   },
 

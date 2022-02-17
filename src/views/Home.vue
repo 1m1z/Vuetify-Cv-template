@@ -198,10 +198,10 @@
 </v-col>
 
         <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12">
-          <h5>chips</h5>
+          <h5>{{$t('home.part3.chips')}}</h5>
           <v-chip
           color="green"
-          class="ma-1"
+          class="ma-4"
           link
           :to="{name : 'Post1'}"
           >
@@ -209,23 +209,23 @@
           </v-chip>
           <v-chip
           color="blue"
-          class="ma-1"
+          class="ma-4"
           link
           :to="{name : 'Post1'}"
           >
           VUETIFY
           </v-chip>
-          <h5>contact me</h5>
+          <h5>{{$t('home.part3.contacttitle')}}</h5>
           <v-row id="inforow">
-            <span>
+            <span class="mt-4">
               <v-icon color=""> mdi-phone-plus</v-icon>
-              asd
+              +98 9198394753
             </span>
-            <span>
+            <span class="mt-4">
               <v-icon color=""> mdi-email</v-icon>
               golruamirali@gmail.com
             </span>
-            <span>
+            <span class="mt-4">
               <v-icon color="">mdi-map-marker-check</v-icon>
               Tehran - darabad
             </span>
@@ -279,9 +279,14 @@ a, a:hover, a:focus, a:active {
   display: flex;
   flex-direction: column;
   margin: 4px 4px 4px 4px;
-  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 20px;
 }
-
+@media screen and (max-width: 512px){
+  #inforow{
+    align-items: center
+  }
+}
 
 
 </style>
