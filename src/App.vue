@@ -93,19 +93,25 @@ body::-webkit-scrollbar-thumb
 .v-application a{
       color: inherit !important; 
 };
-
 </style>
 
-
-<style>
-
-html:lang("fa") {
-  font-family: "shabnam";
-};
-
-html:lang("en"){
-  font-family: "Roboto light"; 
-};
-
-
-</style>
+  <style>
+    @import url('/src/assets/Fonts/shabnam.ttf');
+    @import url('/src/assets/Fonts/roboto-light.ttf');
+    html ,*{
+      font-family: "shabnam";
+      @font-face {
+  font-family: "Shabnam" ;
+  src: local("Shabnam"),   url('/src/assets/Fonts/shabnam.ttf') 
+  }
+    };
+    
+    html:lang("en"){
+      font-family: "Roboto Light"; 
+      @font-face {
+  font-family: "Roboto light" ;
+  src: local("Roboto light"),   url('/src/assets/Fonts/roboto-light.ttf')
+  }
+    };
+    
+    </style>

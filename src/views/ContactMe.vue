@@ -77,7 +77,7 @@
                 >sucsessful sended</v-alert>
             </v-form>
 
-
+        <!-- social medias section-->
             
             <div class="text-center pt-16 ">
                 <hr>

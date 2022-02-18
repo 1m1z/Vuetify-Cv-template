@@ -1,6 +1,7 @@
 <template>
   <div class="pt-6">
     <v-row class="rounded-xl" id="HomeRow">
+      <!-- big picture of home screen -->
       <v-col id="ImgCol" cols="12" xl="4" lg="4" md="4" sm="12" xs="12">
           <v-img
             lazy-src="https://picsum.photos/id/11/10/6"
@@ -11,7 +12,7 @@
           ></v-img>
       </v-col>
 
-      
+      <!-- about me section -->
       <v-col id="AboutCol" cols="12" xl="8" lg="8" md="8" sm="12" xs="12">
         <v-card
         elevation="24"
@@ -29,6 +30,7 @@
             </div>
               <br>
               <v-row>
+                <!-- pages icons enter-->
                 <v-col cols="12" xl="3" lg="3" md="3" sm="6" xs="6">
                 <div class="text-center">
                     <v-card to="/cv" hover >
@@ -131,7 +133,7 @@
         </v-btn>
       </v-card-text>
 
-      <!-- cols haddddddddddddddddddddddddddd -->
+      <!-- about vue and vuetify-->
 
       <v-row>
         <v-col cols="12" xl="4" lg="4" md="4" sm="12" xs="12">
@@ -156,8 +158,8 @@
             </v-col>
           </v-row>
         </v-col>
-
-        <v-col cols="12" xl="5" lg="5" md="5" sm="12" xs="12">
+    <!-- twitter section -->
+        <v-col cols="12" xl="5" lg="5" md="5" sm="12" xs="12" class="pt-8">
           <v-card
     class="mb-3 rounded-xl"
     color="#26c6da"
@@ -196,7 +198,7 @@
     </v-card-actions>
   </v-card>
 </v-col>
-
+      <!-- chips and information section -->
         <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12" id="chipscontactsection">
           <h5>{{$t('home.part3.chips')}}</h5>
           <v-chip
