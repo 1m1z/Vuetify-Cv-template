@@ -197,7 +197,7 @@
   </v-card>
 </v-col>
 
-        <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12">
+        <v-col cols="12" xl="3" lg="3" md="3" sm="12" xs="12" id="chipscontactsection">
           <h5>{{$t('home.part3.chips')}}</h5>
           <v-chip
           color="green"
@@ -280,8 +280,9 @@ a, a:hover, a:focus, a:active {
   flex-direction: column;
   margin: 4px 4px 4px 4px;
   align-items: flex-start;
-  font-size: 20px;
-}
+  font-size: 15px;
+};
+
 @media screen and (max-width: 512px){
   #inforow{
     align-items: center

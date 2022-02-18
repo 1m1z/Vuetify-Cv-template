@@ -171,6 +171,10 @@
     "p6":"i always wanted to have a personal site, i had already been with wordpress, but i never sat down because i liked to code and implement the template from zero, first i wanted to do it with bootstrap, but i still sat down, so i decided to learn vue with vuetify, which is like bootstrap, with some differences and this case took me a lot of time to say i had 4 months. i was training, not on a continuous basis. in short, you can see that the back is a lot of effort.",
     "h7":"forward to the future",
     "p7":"like i said, everyone has a roadmap for themselves, and i was supposed to finish front first and go to beck's side, then full-time hacks and security, but now that i'm seeing, i can't stop trying to start beck's side, then hacking and security, then the design of this site that you're reading now is over and i went into the big, hard-headed area of hacking and security. my branch is web penetration test and i have installments besides to learn golang goo language to write my tools with it. i'm sorry i hurt your head, i hope you liked the story of my🙂 life, you'd like me to follow me on social media to learn more about it."
-    
+  },
+  "pagenotfound":{
+    "errortext":"ERRORE 404 PAGE NOT FOUND",
+    "title":"dude you do it wrong! :/",
+    "bottom":"HOME PAGE"
   }
 }

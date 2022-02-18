@@ -53,9 +53,7 @@ export default {
 </script>
 
 <style lang="scss">
-// .v-application--wrap{
-//   min-height: max-content;
-// };
+
 
 #AppBar{
   position: sticky;
@@ -67,6 +65,9 @@ height: 10px;
 };
 .v-application--wrap{
   min-height: min-content;
+};
+#main{
+  min-height: 100vh;
 };
 
 body::-webkit-scrollbar-track

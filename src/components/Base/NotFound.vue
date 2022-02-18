@@ -1,10 +1,11 @@
 <template>
 <v-app>
-    <div>
-        <h1 class="font-weight-bold">404</h1>
-        <h2 class="font-weight-bold">Not Found</h2>
-        <p>dadash dari eshteb mizani !!
-        </p>
+    <div class="text-center" id="notfound">
+        <h1 class="mt-10"> {{$t('pagenotfound.errortext')}} </h1>
+        <v-img class="text-center mt-10" src="../../assets/Pics/404notfound.jpg"></v-img>
+        <h1  class="mt-10">{{$t('pagenotfound.title')}}</h1>
+        <v-btn class="mt-10" x-large color="purple" to="/">{{$t('pagenotfound.bottom')}}</v-btn>
+        
     </div>
 </v-app>
 </template>
@@ -15,6 +16,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+    #notfound {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        
+    }
 </style>
