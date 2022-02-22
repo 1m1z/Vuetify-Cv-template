@@ -17,7 +17,7 @@
                             name="name"
                             v-model="firstname"
                             :rules="nameRules"
-                            :counter="10"
+                            :counter="20"
                             required
                         ></v-text-field>
                     </v-col>

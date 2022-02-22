@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath:'/Vuetify-Cv-template/',
   pwa: {
     name: 'Amirali Golru',
     shortName:'Amir Web App',
