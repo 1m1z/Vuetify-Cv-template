@@ -5,7 +5,6 @@
         <v-img class="text-center mt-10" src="../../assets/Pics/404notfound.jpg"></v-img>
         <h1  class="mt-10">{{$t('pagenotfound.title')}}</h1>
         <v-btn class="mt-10" x-large color="purple" to="/">{{$t('pagenotfound.bottom')}}</v-btn>
-        
     </div>
 </v-app>
 </template>
@@ -16,7 +15,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     #notfound {
         display: block;
         margin-left: auto;
@@ -24,4 +23,5 @@ export default {
         width: 30%;
         
     }
+
 </style>

@@ -71,7 +71,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/Vuetify-Cv-template/',
   routes
 })
 

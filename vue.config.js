@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/Vuetify-Cv-template/" : "/",
   publicPath:'/Vuetify-Cv-template/',
   pwa: {
     name: 'Amirali Golru',
