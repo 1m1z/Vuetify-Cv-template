@@ -96,7 +96,7 @@
                     <v-col>
                         <a href="https://web.whatsapp.com/0919830453"><v-icon size="100">mdi-whatsapp</v-icon></a>
                         <h3>whatsapp</h3>
-                        <p>+98 9198394753</p>
+                        <p>09198394753</p>
                     </v-col>
                     <v-col>
                         <a href="https://t.me/amir011010"><v-icon size="100">mdi-send</v-icon></a>
