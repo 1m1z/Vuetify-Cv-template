@@ -4,7 +4,8 @@ set -e
 npm run build
 
 cd dist
-
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
 git init 
 git add -A
 git commit -m 'New Deplyment'
